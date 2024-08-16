@@ -1,0 +1,14 @@
+{
+  "Information": [
+    "This file contains default values used when deploying this project to AWS Lambda with the 'dotnet lambda deploy-function' command."
+  ],
+  "profile": "default",
+  "region": "us-east-1",
+  "configuration": "Release",
+  "function-runtime": "dotnet8",
+  "function-memory-size": 256,
+  "function-timeout": 30,
+  "function-handler": "SimpleDotNetLambdaApp::SimpleDotNetLambdaApp.Function::FunctionHandler",
+  "framework": "net8.0",
+  "s3-bucket": "your-s3-bucket-name"
+}
